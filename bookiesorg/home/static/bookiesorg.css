@@ -1,0 +1,98 @@
+	div { border: 1px solid black;
+				}
+
+	.container {
+			background-color:rgba(255,255,255,0.5);
+			min-height:800px;
+		}
+		#header {
+			background-color:black;
+			padding:0px;
+		
+		}
+		
+		.dominantcolour {background-color:yellow;}
+
+		.alternativecolour {background-color:black;}
+
+		.writingcolourdom {color:yellow;}
+
+		.writingcolouraltdom {color:black;}
+
+		ul li {
+					list-style-type:none;
+					background-color:none;
+					padding:1px;
+					display:inline;}
+		#img1 {
+			background-image:url("images/guest.jpg");
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+			height:400px;
+		}
+
+		#img2 {
+			background-image:url("images/charles.jpg");
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+			height:400px;
+		}
+
+		#img3 {
+			background-image:url("images/missionandvision.jpg");
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size:cover;
+			height:400px;
+		}
+
+		#coverphoto {
+			background-image:url("images/writerr.jpg");
+			background-repeat:no-repeat;
+			background-attachment: fixed;
+			background-size:fixed;
+			background-size:cover;
+			height:400px;
+		}
+
+		.carousel {
+ 		 width: 100%;
+			}
+
+		.slide-box {
+  		display: flex;
+  		justify-content: space-between;
+		}
+
+		@media (min-width: 576px) and (max-width: 767.98px) {
+  		.slide-box img {
+   		 -ms-flex: 0 0 50%;
+    	flex: 0 0 50%;
+    	max-width: 50%;
+ 		 }
+		}
+
+		@media (min-width: 768px) and (max-width: 991.98px) {
+ 		 .slide-box img {
+    	-ms-flex: 0 0 33.3333%;
+    	flex: 0 0 33.3333%;
+    	max-width: 33.3333%;
+  		}
+		}
+
+		@media (min-width: 992px)
+		{
+  		.slide-box img {
+  		  -ms-flex: 0 0 25%;
+   		 flex: 0 0 25%;
+    	max-width: 25%;
+ 		 }
+			}
+
+		.carousel-caption {
+ 		 background-color: rgba(0, 0, 0, 0.5);
+  		padding: 20px;
+  		border-radius: .5rem;
+		}
